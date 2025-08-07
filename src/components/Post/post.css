@@ -1,0 +1,92 @@
+.postImage{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.postTopfirstRow{
+    display: flex;
+    align-items: center;
+}
+
+.postTime{
+    margin-left:72px;
+    font-size: small;
+    color: gray;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.postUserName{
+    font-weight: bold;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+.postAdded{
+    font-weight: 300;
+}
+
+.addedImage{
+    width:80%;
+    background-size: cover;
+    margin-left: 72px;
+    height:800px;
+}
+
+.postcaption{
+    margin-left: 72px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+}
+.post{
+    -webkit-box-shadow: -1px 2px 10px 0px rgba(0, 0, 0, 0.45);
+    box-shadow: -1px 2px 10px 0px rgba(0, 0, 0, 0.45);
+    width: 94%;
+    margin-left: 20px;
+    border-radius: 2%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.postBottomLeft{
+    margin-top: 5px;
+    margin-left: 72px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.postReaction{
+    width: 32px;
+    height: 32px;
+    
+}
+
+.likeCount{
+    margin-left: 10px;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: medium;
+    
+}
+
+.postBottom{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.commentCount{
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: medium;
+    margin-top: 5px;
+}
+
+.postBottomRight{
+    margin-bottom: 10px;
+}
+
